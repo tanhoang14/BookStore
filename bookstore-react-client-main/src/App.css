@@ -1,0 +1,62 @@
+@import '~antd/dist/antd.css';
+
+.container{
+background-color: #f0f2f5;
+min-height: 100vh;
+justify-content: center;
+margin-top: 5px;
+}
+
+.htitle{
+  color: #fff;
+  float: left;
+}
+
+.nav{
+  margin-bottom: 10px;
+}
+
+.menu{
+  float: right;
+  line-height: 64px;
+}
+
+.carousel{
+  height: '160px';
+  color: '#fff';
+  line-height: '160px';
+  text-align: 'center';
+  background: '#364d79';
+}
+
+.divider{
+  border-color: #8c7d7d;
+}
+
+.center{
+  text-align: center;
+}
+.block-text > * {
+  display: block;
+}
+
+.btn{
+  margin: 6px;
+}
+.p-menu{
+  margin: auto 40px;
+  float: right;
+}
+
+.custom-form{
+  margin-top: 5%;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 1.5rem;
+}
+.price{
+  color: #e9102d;
+}

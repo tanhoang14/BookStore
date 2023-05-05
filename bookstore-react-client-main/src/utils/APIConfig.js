@@ -1,0 +1,83 @@
+const Base = 'http://localhost:8080/'
+
+const USERS_URL = 'api/users/'
+const SIGNUP_URL = Base + USERS_URL + 'signup'
+const LOGIN_URL = Base + USERS_URL + 'login'
+
+const BOOK_URL = Base + 'book/'
+const USER_BOOK_URL = Base + 'userBook/'
+const CREATE_BOOK_URL = BOOK_URL + 'add'
+const GET_BOOKS_URL = USER_BOOK_URL + 'booklist'
+const DELETE_BOOK_URL = BOOK_URL + 'deletebook/'
+const BOOK_IMAGE_URL = USER_BOOK_URL + 'getimage/'
+const BOOK_DETAIL_URL = USER_BOOK_URL + 'bookinfo/'
+
+const CREDIT_CARD_BILLING_URL = Base + 'creditcard/'
+const ADD_CARD_URL = CREDIT_CARD_BILLING_URL + 'addNewCreditCard/'
+const CARD_LIST_URL = CREDIT_CARD_BILLING_URL + 'creditcardlist/'
+const DELETE_CARD_URL = CREDIT_CARD_BILLING_URL + 'deletecard/'
+const CARD_DETAIL_URL = CREDIT_CARD_BILLING_URL + 'cardinfo/'
+const UPDATE_CARD_URL = CREDIT_CARD_BILLING_URL + 'updatecard/'
+const GET_DEFAULT_CARD_URL = CREDIT_CARD_BILLING_URL + 'defaultCard/'
+const SET_DEFAULT_CARD_URL = CREDIT_CARD_BILLING_URL + 'setDefaultCard/'
+
+const USER_SHIPPING_URL = Base + 'shipping/'
+const ADD_USHIPPING_URL = USER_SHIPPING_URL + 'addNewUserShippingAddress/'
+const GET_USER_SHIPPINGS_URL = USER_SHIPPING_URL + 'usershippinglist/'
+const USER_SHIPPING_DETAIL_URL = USER_SHIPPING_URL + 'shippingInfo/'
+const UPDATE_USER_SHIPPING_URL = USER_SHIPPING_URL + 'updateUserShippingAddress/'
+const DELETE_USER_SHIPPING_URL = USER_SHIPPING_URL + 'deleteUserShipping/'
+const GET_DEFAULT_USER_SHIPPING_URL = USER_SHIPPING_URL + 'defaultUserShipping/'
+const SET_DEFAULT_USER_SHIPPING_URL = USER_SHIPPING_URL + 'setDefaultUserShipping/'
+
+
+const SHOPPING_CART_URL = Base + 'shoppingCart/'
+const Add_BOOK_TO_CART_ITEM_URL = SHOPPING_CART_URL + 'addItem/'
+const GET_SHOPPING_CART_ITEMS_URL = SHOPPING_CART_URL + 'shoppingCart/'
+const DELETE_ITEM_URL = SHOPPING_CART_URL + 'deleteItem/'
+
+const CHECKOUT_URL = Base + 'checkout/'
+const CREATE_ORDER_URL = CHECKOUT_URL + 'createOrder/'
+const GET_ORDERS_URL = CHECKOUT_URL + 'getOrders/'
+
+export default {
+    Base,
+
+    USERS_URL,
+    SIGNUP_URL,
+    LOGIN_URL,
+
+    BOOK_URL,
+    CREATE_BOOK_URL,
+    GET_BOOKS_URL,
+    DELETE_BOOK_URL,
+    BOOK_IMAGE_URL,
+    BOOK_DETAIL_URL,
+
+    CREDIT_CARD_BILLING_URL,
+    ADD_CARD_URL,
+    CARD_LIST_URL,
+    DELETE_CARD_URL,
+    CARD_DETAIL_URL,
+    UPDATE_CARD_URL,
+    GET_DEFAULT_CARD_URL,
+    SET_DEFAULT_CARD_URL,
+
+    USER_SHIPPING_URL,
+    ADD_USHIPPING_URL,
+    GET_USER_SHIPPINGS_URL,
+    USER_SHIPPING_DETAIL_URL,
+    UPDATE_USER_SHIPPING_URL,
+    DELETE_USER_SHIPPING_URL,
+    GET_DEFAULT_USER_SHIPPING_URL,
+    SET_DEFAULT_USER_SHIPPING_URL,
+
+    SHOPPING_CART_URL,
+    Add_BOOK_TO_CART_ITEM_URL,
+    GET_SHOPPING_CART_ITEMS_URL,
+    DELETE_ITEM_URL,
+
+    CHECKOUT_URL,
+    CREATE_ORDER_URL,
+    GET_ORDERS_URL
+}
